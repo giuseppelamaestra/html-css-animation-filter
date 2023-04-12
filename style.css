@@ -94,16 +94,14 @@
 
 .ex-5-square:hover {
     
-    height: 120px;
-    width: 120px;
-    margin: 0;
+    transform: scale(2);
+    
     transition: 2s;
 }
 
 .ex-5-square:active {
 
-    height: 30px;
-    width: 30px;
+    transform: scale(0.2);
     transition: 2s;
 }
 
@@ -124,4 +122,12 @@
     filter: grayscale(100%);
     border-radius: 20px;
     transition: 2s;
+}
+
+.ex-9-img:hover {
+
+   transform: scale(1.5);
+   border-radius: 20px;
+   transition: 2s;
+
 }
