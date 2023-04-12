@@ -86,3 +86,8 @@
     border-radius: 60%;
     transition: 1s;
 }
+
+.ex-4-square:hover {
+     background-color: rgba(0, 0, 0, 0);
+    transition: 1s;
+}
